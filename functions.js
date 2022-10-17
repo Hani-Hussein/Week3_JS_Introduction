@@ -1,35 +1,22 @@
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task: Convert to Arrow Function  🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
-// Take the commented ES5 syntax and convert it to ES6 arrow Syntax
+// Take the commented ES5 syntax and convert it to ES6 arrow Synt
 
+var printer = () =>
 
-/*
-
-------------
-function myFunction() {
-console.log("Function was invoked!");
-};
+console.log("Hello World");
+const sayHello = () => console.log("Hi");
+sayHello()
 
 myFunction();
-----------------
-
 let anotherFunction = function (param) {
   return param;
 };
-
 anotherFunction("Example");
-
----------------
-
 let add = function (param1, param2) {
   return param1 + param2;
 };
-
 add(1,2);
-
-*/
-
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task: Rock, Paper, Scissors - Let's play against the computer! 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -50,5 +37,5 @@ Use the game function below to do the following:
 */
 
 function game(user, computer){
-    /*add your code here*/
+    
 }
